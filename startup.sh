@@ -11,6 +11,4 @@ echo "ubuntu:$PASS" | chpasswd
 
 /usr/bin/supervisord -c /supervisord.conf
 
-while [ 1 ]; do
-    /bin/bash
-done
+
